@@ -1,0 +1,265 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial,sans-serif;
+width: 100%;
+max-width: 8000px;
+margin: 0 auto;
+}
+#container{
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+
+
+#nav{
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+background:#3B6978;
+position:relative;
+height:80px;
+}
+#nav #title{
+padding:10;
+margin:;
+}#nav #title span{color:white;}
+
+#nav #nav-bars{
+position:absolute;
+top: 20;
+right:10;
+}#nav-bars #menu_btn{
+ font-size: 40px;
+ background:none;
+ border:0px;
+}#nav-bars #cancel_btn{
+ font-size: 40px;
+ background:none;
+ border:0px;
+ display:none;
+}
+
+#nav_opener{
+background:#3B6978;
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+padding-bottom:20px;
+display:none;
+}#nav_opener a{
+text-decoration:none;
+}#nav_opener button{
+ width: 300px;
+ margin-top:10;
+ text-align:left;
+}
+
+
+
+
+.search-cont{
+ background: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ padding: 5px;
+ height:50px;
+ }.search-cont form{
+   position: relative;
+   width: 300px;
+ }.search-cont form input{
+  height: 40px;
+  width: 100%; 
+  border-radius: 5px;
+  border: 0px;
+  background: #F1F1F1;
+  border: 1px solid white;
+  outline: none;
+ }.search-cont form button{
+  background: #06801E;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+  position: absolute;
+  top: 2;
+  right: 2;
+  height: 35;
+  width: 35px
+ }.search-cont form button svg{
+  font-size: 15px;
+ }
+
+
+
+#music-player{
+background:#90A4AE;
+padding: 10;
+max-width:650px;
+margin: 0 auto;
+position:relative;
+border-radius:0px;
+animation-name: music;
+animation-delay: 1s;
+animation-duration: 2s;
+}#music-player img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 1px solid white;
+}#music-player audio{}
+#music-player #music_btns{
+ display:flex;
+ justify-content:space-around;
+}#music-player #music_btns button{
+background:none;
+border:0px;
+}#music-player #music_btns #prev{
+ 
+}#music-player #music_btns #prev svg{
+
+}#music-player #music_btns #play{
+
+}#music-player #music_btns #play svg{
+
+}#music-player #music_btns #pause{
+ display:none;
+}#music-player #music_btns #pause svg{
+
+}#music-player #music_btns #next{
+
+}#music-player #music_btns #next svg{
+
+}
+#reactBtns{
+display:flex;
+justify-content:center;
+margin:10;
+}#reactBtns button{
+background:none;
+border:0px;
+margin-left:30;
+margin-right: 30;
+
+}#reactBtns button svg{
+ font-size: 25px;
+}
+
+
+#music-frame{
+background:#f4f4f4;
+max-width:650px;
+margin:0 auto;
+width:100%;
+padding:;
+height: 1000px;
+display:;
+}
+#music-frame h3{
+color:gray;
+border-left:5px solid gray;
+padding:5;margin:0;
+padding-left: 50;
+height:20;
+position:relative;
+}
+#music-frame #music-wrape{
+
+max-width:400px;
+margin:0 auto;
+border-top:0.5px solid gray;
+display:flex;
+position:relative;
+box-shadow: 5px 5px 5px gray;
+}
+/*contro imgO nd imgL*/
+#music-frame #music-wrape #image-wrape{
+position:relative;
+width:100px;
+}#music-frame #music-wrape #image-wrape #imgO{
+ width:100px;
+ height:100px;
+}#music-frame #music-wrape #image-wrape #imgL{
+ position: absolute;
+ bottom:0;
+ right:0;
+ width:30px;
+ height:30px;
+ border-radius:px;
+}
+/*control imgO nd imgL*/
+
+#music-frame #music-wrape #title{
+width:300px;
+padding:5;margin:5;
+}#music-frame #music-wrape #title i{
+ font-family:;
+ font-size:10px;
+}
+
+#music-frame #music-wrape #btns{
+ background:none;
+ position: absolute;
+ bottom:0;
+ right:0;
+ width:200px;
+ height:50px;
+ border-top:1px solid gray;
+}#music-frame #music-wrape #btns button{
+background:none;
+border:0px;
+height:50px;
+}#music-frame #music-wrape #btns #play2{
+ border:0px solid gray;
+ 
+}#music-frame #music-wrape #btns #play2 svg{
+
+}#music-frame #music-wrape #btns #pause2, 
+#pause3, #pause4, #pause5, #pause6, #pause7,
+#pause8, #pause9{
+ display:none;
+}#music-frame #music-wrape #btns #pause2 svg{
+
+}
+
+
+#bottom-nav{
+max-width:1000px;
+margin:0 auto;
+display:flex;
+justify-content:space-around;
+padding:0;
+position:sticky;
+bottom:0;
+}#bottom-nav a{
+
+}#bottom-nav button{
+width: 100%;
+height:50px;
+border:0px;
+outline:none;
+}
+
+
+footer{
+max-width: 1000px;
+margin:0 auto;
+width:%;
+background:#3B6978;
+padding:10;
+position:relative;
+color:white;
+}footer a{
+text-decoration:none;
+color:white;
+}footer #up-btn{
+ background:none;
+ border:0px;
+ position:absolute;
+ right:10;
+ bottom:10;
+ 
+}
